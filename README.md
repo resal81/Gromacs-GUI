@@ -3,7 +3,7 @@
 ## Gromacs GUI
 
 **Gromacs GUI** provides a graphical user interface for GROMACS. I wrote this
-package 6 years ago when I was starting to learn about MD simulations. 
+package about six years ago when I was starting to learn about MD simulations. 
 
 After several years, now I believe that GUI's in general are not that efficient. 
 In fact I think writing scripts to run and analyze simulations is much more productive and flexible than working with a GUI. Therefore this package is no longer in active development. 
