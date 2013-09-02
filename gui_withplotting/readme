@@ -1,0 +1,27 @@
+
+GromacsGUI 0.5.2
+(c) Reza Salari 2007 2008
+resal81@yahoo.com
+
+About
+=====
+This is plot supporting version of GromacsGUI. There is also another version that does not support plotting and so does not need Qwt, which may be useful when you do not have Qwt package installed.
+
+Prerequisites
+=============
+You should have "Qt 4.3.x" (both lib and devel packages) and "Qwt 5.0.2" (both lib and devel packages) installed. You can use your linux distribution online repositories to find these packages. In OpenSuse, these packages can be easily downloaded and installed through Yast or Smart or Zypper.
+
+
+How to Compile
+==============
+1) Open grogui.pro and edit options based on your system. Normally you only have to make sure that path to Qwt files is correct:
+ -- in DEPENDPATH and INCLUDEPATH edit "/usr/include/qwt" to point to the directory containing header files of Qwt.
+ -- if the Qwt lib (.so file) has been installed in a directory which is not in your search path, you can point to that directory with: LIBS += L/path/to/qwtlibdirectory/
+2) qmake
+3) make
+4) ./grogui
+
+
+
+
+

@@ -1,0 +1,24 @@
+
+GromacsGUI 0.5.2
+(c) Reza Salari 2007 2008
+resal81@yahoo.com
+
+About
+=====
+This version of GromacsGUI does not support plotting and so does not need Qwt package. There is also another version that supports plotting. You can download it from http://kde-apps.org .
+
+Prerequisites
+=============
+You should have "Qt 4.3.x" (both lib and devel packages) installed. You can use your linux distribution online repositories to find these packages. In OpenSuse, these packages can be easily downloaded and installed through Yast or Smart or Zypper.
+
+
+How to Compile
+==============
+1) qmake
+2) make
+3) ./grogui
+
+
+
+
+
